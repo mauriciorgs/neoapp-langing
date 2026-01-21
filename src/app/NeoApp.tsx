@@ -5,7 +5,7 @@ import { Hero } from "../features/hero/Hero";
 import { Navbar } from "../features/navbar/Navbar";
 import { Services } from "../features/services/Services";
 import { Partners } from "../partners/Partners";
-import { Experience } from "../projects/EXperience";
+import { Experience } from "../projects/temp_Experience";
 
 export const NeoApp = () => {
   return (
