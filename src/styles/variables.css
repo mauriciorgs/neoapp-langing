@@ -1,0 +1,24 @@
+/* styles/variables.css */
+
+/* Identidad NeoApp */
+:root {
+  /* Brand */
+  --color-primary: #003049;     /* Obligatorio */
+  --color-accent: #3a86ff;
+
+  /* Backgrounds */
+  --bg-main: #0f172a;           /* Fondo principal */
+  --bg-secondary: #1e293b;      /* Cards / secciones */
+
+  /* Text */
+  --text-main: #e5e7eb;
+  --text-muted: #9ca3af;
+
+  /* UI */
+  --border-color: #334155;
+  --button-bg: var(--color-primary);
+  --button-text: #ffffff;
+
+  /* States */
+  --hover-opacity: 0.9;
+}
