@@ -43,8 +43,12 @@
   display: inline-block;
 }
 
-.value h4 {
+.value h3 {
   margin-bottom: 0.5rem;
+}
+
+.value p {
+  max-width: none;
 }
 
 /* 📱 Responsive */

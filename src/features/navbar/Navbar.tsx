@@ -7,12 +7,7 @@ export const Navbar = () => {
     <header className={styles.header}>
       <nav className={styles.nav}>
         <a href='/' className={styles.logo}>
-          <img
-            src={logo}
-            alt='NeoApp - soluciones tecnológicas'
-            height={80}
-            width={95}
-          />
+          <img src={logo} alt='NeoApp - soluciones tecnológicas' />
         </a>
 
         <ul className={styles.links}>

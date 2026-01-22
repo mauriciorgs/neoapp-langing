@@ -23,19 +23,19 @@ export const About = () => {
         <div className={styles.values}>
           <div className={styles.value}>
             <span>🚀</span>
-            <h4>Calidad</h4>
+            <h3>Calidad</h3>
             <p>Desarrollamos software robusto y bien diseñado.</p>
           </div>
 
           <div className={styles.value}>
             <span>🤝</span>
-            <h4>Compromiso</h4>
+            <h3>Compromiso</h3>
             <p>Acompañamos a nuestros clientes en cada etapa.</p>
           </div>
 
           <div className={styles.value}>
             <span>🧠</span>
-            <h4>Innovación</h4>
+            <h3>Innovación</h3>
             <p>Buscamos soluciones modernas y eficientes.</p>
           </div>
         </div>
