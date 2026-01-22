@@ -8,7 +8,10 @@ export const Footer = () => {
       <div className={styles.container}>
         {/* Brand */}
         <div className={styles.brand}>
-          <img src={logo} alt='NeoApp logo' />
+          <a href='#hero'>
+            <img src={logo} alt='NeoApp logo' />
+          </a>
+
           <p>
             Desarrollamos soluciones de software a medida y productos
             tecnológicos que impulsan el crecimiento de tu negocio.
@@ -33,10 +36,10 @@ export const Footer = () => {
 
         {/* Navigation */}
         <nav className={styles.nav}>
-          <h4>Navegación</h4>
+          <h3>Navegación</h3>
           <ul>
             <li>
-              <a href='/'>Inicio</a>
+              <a href='#hero'>Inicio</a>
             </li>
             <li>
               <a href='#servicios'>Servicios</a>
@@ -55,7 +58,7 @@ export const Footer = () => {
 
         {/* Contact */}
         <div className={styles.contact}>
-          <h4>Contacto</h4>
+          <h3>Contacto</h3>
           <ul>
             <li>Valledupar, Cesar</li>
             <li>neoappingenieria@gmail.com</li>
@@ -68,7 +71,7 @@ export const Footer = () => {
       {/* Bottom */}
       <div className={styles.bottom}>
         <p>
-          © {new Date().getFullYear()} NeoApp. Todos los derechos reservados.
+          © {new Date().getFullYear()} NeoApp Ingenieria. Todos los derechos reservados.
           Hecho en Colombia, hecho con el ❤️
         </p>
       </div>

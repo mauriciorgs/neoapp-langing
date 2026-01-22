@@ -4,7 +4,7 @@ import neopos from "../../assets/images/neopos.webp";
 
 export const Hero = () => {
   return (
-    <section className={styles.hero}>
+    <section className={styles.hero} id='hero'>
       <div className={styles.container}>
         <div className={styles.content}>
           <h1>

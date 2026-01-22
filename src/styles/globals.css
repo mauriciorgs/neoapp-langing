@@ -2,13 +2,6 @@
 
 @import "./variables.css";
 
-/* Reset básico */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -21,7 +14,7 @@ body {
   line-height: 1.6;
 }
 
-/* 🧠 Tipografía */
+/*Tipografía */
 h1,
 h2,
 h3 {
@@ -43,7 +36,7 @@ p {
   max-width: 65ch;
 }
 
-/* 🔗 Enlaces */
+/* Enlaces */
 a {
   color: var(--color-accent);
   text-decoration: none;
@@ -53,9 +46,9 @@ a:hover {
   opacity: var(--hover-opacity);
 }
 
-/* 🔘 Botón base */
+/* Botón base */
 .btn-primary {
-  background-color: var(--button-bg);
+  background-color: var(--color-accent);
   color: var(--button-text);
   padding: 0.75rem 1.5rem;
   border-radius: 0.5rem;
@@ -70,19 +63,11 @@ a:hover {
   transform: translateY(-2px);
 }
 
-/* 📦 Layout */
+/*Layout */
 main {
   overflow-x: hidden;
 }
 
 section {
   padding: 4rem 1.5rem;
-}
-
-/* 🧱 Cards (para proyectos / aliados) */
-.card {
-  background-color: var(--bg-secondary);
-  border: 1px solid var(--border-color);
-  border-radius: 0.75rem;
-  padding: 1.5rem;
 }

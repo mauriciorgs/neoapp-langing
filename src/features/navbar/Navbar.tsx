@@ -10,8 +10,8 @@ export const Navbar = () => {
           <img
             src={logo}
             alt='NeoApp - soluciones tecnológicas'
-            height={100}
-            width={120}
+            height={80}
+            width={95}
           />
         </a>
 
