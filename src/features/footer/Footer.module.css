@@ -35,26 +35,29 @@
 
 /* Lists */
 .nav ul,
-.contact ul {
+.contact ul, .politic ul {
   list-style: none;
   padding: 0;
+  color: var(--text-main);
   
 }
 
 .nav li,
-.contact li {
+.contact li, .politic li {
   margin-bottom: 0.75rem;
 }
 
 /* Links */
 .nav a {
-  color: white;
+  
   transition: color 0.2s ease;
 }
 
 .nav a:hover {
-  color: var(--color-accent);
+  color: var(--text-muted);
 }
+
+
 
 /* Bottom */
 .bottom {
@@ -65,7 +68,6 @@
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  color: var(--text-muted);
 }
 
 

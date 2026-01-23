@@ -4,30 +4,39 @@
   top: 0;
   z-index: 100;
   padding-bottom: 0px;
-  background-color: rgba(0, 0, 0, 0.35);
+  background-color: #0f172a57;
   background-repeat: repeat;
-  border-bottom: 1px solid var(--border-color);
   backdrop-filter: blur(10px);
 }
 
 .nav {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 1rem 1.5rem;
+  padding: 0.1rem 1.5rem;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+
+
+
+
 /* Logo */
 .logo {
   display: flex;
   align-items: center;
+  
 }
 
 .logo img {
-  height: 120px;
+  height: 100px;
+}
+
+.logo :hover {
+  transition: 1.5s;
+  transform: translateY(-4px);
 }
 
 /* Links */

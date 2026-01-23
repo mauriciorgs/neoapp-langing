@@ -38,7 +38,7 @@ p {
 
 /* Enlaces */
 a {
-  color: var(--color-accent);
+  color: var(--text-main);
   text-decoration: none;
 }
 
