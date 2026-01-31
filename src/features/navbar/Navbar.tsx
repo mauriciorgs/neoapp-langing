@@ -3,9 +3,9 @@ import logo from '../../assets/images/logo-neoapp.webp';
 
 const navItems = [
   { name: 'Servicios', path: '#servicios' },
+  { name: 'Nosotros', path: '#about' },
   { name: 'Experiencia', path: '#experiencia' },
   { name: 'Aliados', path: '#aliados' },
-  { name: 'Nosotros', path: '#about' },
 ];
 
 export const Navbar = () => {
