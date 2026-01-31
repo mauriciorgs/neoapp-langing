@@ -37,7 +37,7 @@
   border-radius: 0.5rem;
   border: 1px solid var(--border-color);
   color: var(--text-main);
-  font-weight: 600;
+  font-weight: 500;
 
   transition:
     transform 0.2s ease,
