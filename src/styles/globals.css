@@ -6,12 +6,15 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+body, html {
   margin: 0;
-  font-family: "Inter", system-ui, sans-serif;
+  font-family: var(--font-main);
   background-color: var(--bg-main);
   color: var(--text-main);
   line-height: 1.6;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /*Tipografía */
@@ -19,7 +22,8 @@ h1,
 h2,
 h3 {
   line-height: 1.2;
-  font-weight: 700;
+  font-weight: 600;
+  letter-spacing: -0.02em;
   color: var(--text-main);
 }
 
@@ -33,6 +37,7 @@ h2 {
 
 p {
   color: var(--text-muted);
+  line-height: 1.6;
   max-width: 65ch;
 }
 

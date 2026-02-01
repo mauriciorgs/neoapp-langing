@@ -5,6 +5,7 @@
     var(--bg-main) 0%,
     #020617 100%
   );
+  padding-top: 90px;
 }
 
 .container {
@@ -66,7 +67,7 @@
 .visual {
   position: relative; /* Necesario para el overlay */
   cursor: pointer;
-  overflow: hidden; /* Para el efecto de zoom interno */
+  overflow: clip; /* Para el efecto de zoom interno */
   border-radius: 1rem;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
@@ -74,7 +75,6 @@
 
 .visual img {
   width: 100%;
-   /*Opcional: quita esto si quieres que ocupe todo el ancho de su columna */
   display: block;
   transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
@@ -100,7 +100,7 @@
   width: 60px;
   height: 60px;
   border-radius: 8px;
-  overflow: hidden;
+  overflow: clip;
   opacity: 0.7;
   transition: all 0.2s ease;
 }
@@ -167,7 +167,7 @@
 
 .closeBtn {
   position: absolute;
-  top: 20px;
+  top: 110px;
   right: 30px;
   background: none;
   border: none;
@@ -203,10 +203,12 @@
 
   .visual img {
     margin: 0 auto;
+    max-width: 100%;
   }
 
   .visual img, .thumbnails {
     margin: 0 auto;
+    
   }
 .navBtn {
     font-size: 1.5rem;

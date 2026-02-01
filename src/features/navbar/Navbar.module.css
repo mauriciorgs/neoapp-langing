@@ -1,15 +1,18 @@
 
 .header {
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 100;
+  left: 0;
+  width: 100%;
+  z-index: 3000;
+
   padding-bottom: 0px;
-  background-color: #0f172a57;
-  background-repeat: repeat;
+  background-color:  rgba(15, 23, 42, 0.493);
   backdrop-filter: blur(10px);
 }
 
 .nav {
+ 
   max-width: 1200px;
   margin: 0 auto;
   padding: 0.1rem 1.5rem;
@@ -18,9 +21,6 @@
   align-items: center;
   justify-content: space-between;
 }
-
-
-
 
 
 /* Logo */

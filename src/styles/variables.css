@@ -2,8 +2,13 @@
 
 /* Identidad NeoApp */
 :root {
+
+  /* Fonts */
+   --font-main: 'Inter', system-ui, -apple-system, BlinkMacSystemFont,
+               'Segoe UI', Roboto, sans-serif;
+
   /* Brand */
-  --color-primary: #003049;     /* Obligatorio */
+  --color-primary: #003049;     
   --color-accent: #3a86ff;
 
   /* Backgrounds */
