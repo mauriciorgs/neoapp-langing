@@ -5,7 +5,7 @@
     var(--bg-main) 0%,
     #020617 100%
   );
-  padding-top: 90px;
+  padding-top: 6rem;
 }
 
 .container {
@@ -118,6 +118,7 @@
 
 /* Lightbox / Super Zoom */
 .lightbox {
+  
   position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.5);
@@ -130,7 +131,7 @@
 }
 
 .zoomedImage {
-  max-width: 70%;
+  max-width: 50%;
   max-height: 95vh;
   object-fit: contain;
   border-radius: 4px;
