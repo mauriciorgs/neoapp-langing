@@ -6,12 +6,11 @@ import { Hero } from "../features/hero/Hero";
 import { Navbar } from "../features/navbar/Navbar";
 import { Partners } from "../features/partners/Partners";
 import { Services } from "../features/services/Services";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const NeoApp = () => {
   return (
     <>
-    <SpeedInsights  />
+    
       <Navbar />
 
       <Hero />
