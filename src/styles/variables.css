@@ -9,15 +9,15 @@
 
   /* Brand */
   --color-primary: #003049;     
-  --color-accent: #3a86ff;
+  --color-accent:  #0ea5e9;
 
   /* Backgrounds */
-  --bg-main: #0f172a;           /* Fondo principal */
-  --bg-secondary: #1e293b;      /* Cards / secciones */
+  --bg-main: #020617;           /* Fondo principal */
+  --bg-secondary: #0f172a;      /* Cards / secciones */
 
   /* Text */
-  --text-main: #e5e7eb;
-  --text-muted: #9ca3af;
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
 
   /* UI */
   --border-color: #334155;

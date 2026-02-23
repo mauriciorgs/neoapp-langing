@@ -1,11 +1,18 @@
 import styles from './Navbar.module.css';
 import logo from '../../assets/images/logo-neoapp.webp';
+import { Hammer, Users, Briefcase, Handshake,  type LucideIcon } from 'lucide-react';
 
-const navItems = [
-  { name: 'Servicios', path: '#servicios' },
-  { name: 'Nosotros', path: '#about' },
-  { name: 'Experiencia', path: '#experiencia' },
-  { name: 'Aliados', path: '#aliados' },
+type NavItem = {
+  name: string;
+  path: string;
+  icon: LucideIcon;
+};
+
+const navItems: NavItem [] = [
+  { name: 'Servicios', path: '#servicios', icon: Hammer },
+  { name: 'Nosotros', path: '#about', icon: Users },
+  { name: 'Experiencia', path: '#experiencia', icon: Briefcase },
+  { name: 'Aliados', path: '#aliados', icon: Handshake },
 ];
 
 export const Navbar = () => {
@@ -17,11 +24,18 @@ export const Navbar = () => {
         </a>
 
         <ul className={styles.links}>
-          {navItems.map((item) => (
-            <li key={item.name}>
-              <a href={item.path}>{item.name}</a>
-            </li>
-          ))}
+          {navItems.map((item) => {
+            const Icon = item.icon;
+
+            return (
+              <li key={item.name}>
+                <a href={item.path} className={styles.linkItem}>
+                  <Icon size={18} className={styles.icon} />
+                  <span>{item.name}</span>
+                </a>
+              </li>
+            );
+          })}
         </ul>
 
         <a href="#" className={`btn-primary ${styles.cta}`}>

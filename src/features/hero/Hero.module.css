@@ -1,10 +1,4 @@
-
 .hero {
-  background: linear-gradient(
-    180deg,
-    var(--bg-main) 0%,
-    #020617 100%
-  );
   padding-top: 6rem;
 }
 
@@ -48,8 +42,9 @@
   padding: 0.75rem 1.5rem;
   border-radius: 0.5rem;
   cursor: pointer;
-  transition: opacity 0.2s ease, transform 0.2s ease;
-  
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
 }
 
 .secondary:hover {
@@ -57,139 +52,34 @@
   transform: translateY(-2px);
 }
 
-.visualWrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
 /* Visual */
 .visual {
-  position: relative; /* Necesario para el overlay */
-  cursor: pointer;
-  overflow: clip; /* Para el efecto de zoom interno */
-  border-radius: 1rem;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  display: flex;
+  position: relative;
+  margin-left: 3rem;
+  z-index: 1;
+  justify-content: center;
 }
 
-
-.visual img {
+.mockup {
+ position: absolute;
+  inset: -20px;
+  background-color: rgba(30, 130, 248, 0.30);
+  filter: blur(40px);
+  border-radius: 30px;
+  z-index: -1;
+  
+}
+.imagen-mockup {
+  position: relative;
   width: 100%;
   display: block;
-  transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.visual:hover .mainImage {
-  transform: scale(1.05);
-}
-
-/* Miniaturas */
-.thumbnails {
-  display: flex;
-  gap: 0.75rem;
-  justify-content: center; /* O flex-start */
-  max-width: 480px; /* Alineado con la imagen principal */
-  margin: 0 auto; /* Centrado */
-}
-
-.thumbBtn {
-  border: 2px solid transparent;
-  background: none;
-  padding: 0;
-  cursor: pointer;
-  width: 60px;
-  height: 60px;
-  border-radius: 8px;
-  overflow: clip;
-  opacity: 0.7;
-  transition: all 0.2s ease;
-}
-
-.thumbBtn:hover {
-  opacity: 1;
-  transform: translateY(-2px);
-}
-
-.thumbBtn img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-/* Lightbox / Super Zoom */
-.lightbox {
+  max-width: 40rem;
+  z-index: 10;
+  border-radius: 1rem;
   
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(8px); /* Efecto moderno de desenfoque */
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-
-.zoomedImage {
-  max-width: 50%;
-  max-height: 95vh;
-  object-fit: contain;
-  border-radius: 4px;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.3);
-  animation: scaleUp 0.3s ease-out;
-}
-
-.navBtn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: rgba(255, 255, 255, 0.1);
-  border: none;
-  color: white;
-  font-size: 2.5rem;
-  padding: 1rem;
-  cursor: pointer;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background 0.2s;
-  z-index: 1010;
-}
-
-.navBtn:hover {
-  background: rgba(255, 255, 255, 0.3);
-}
-
-.prev { left: 20px; }
-.next { right: 20px; }
-
-.closeBtn {
-  position: absolute;
-  top: 110px;
-  right: 30px;
-  background: none;
-  border: none;
-  color: var(--text-main);
-  font-size: 3rem;
-  cursor: pointer;
-}
-
-.counter {
-  position: absolute;
-  bottom: 20px;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 1rem;
-}
-
-
-@keyframes scaleUp {
-  from { opacity: 0; transform: scale(0.9); }
-  to { opacity: 1; transform: scale(1); }
-}
-
 
 /* 📱 Responsive */
 @media (max-width: 900px) {
@@ -202,22 +92,8 @@
     justify-content: center;
   }
 
-  .visual img {
+  .imagen-mockup {
     margin: 0 auto;
     max-width: 100%;
   }
-
-  .visual img, .thumbnails {
-    margin: 0 auto;
-    
-  }
-.navBtn {
-    font-size: 1.5rem;
-    width: 40px;
-    height: 40px;
-    padding: 0.5rem;
-  }
-  .prev { left: 10px; }
-  .next { right: 10px; }
-  
 }

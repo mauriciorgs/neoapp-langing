@@ -4,34 +4,33 @@
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 3000;
+  z-index:  3000;
 
   padding-bottom: 0px;
-  background-color:  rgba(15, 23, 42, 0.493);
-  backdrop-filter: blur(10px);
+  background:  #0206179a;
+  backdrop-filter: blur(8px);
 }
 
 .nav {
  
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0.5rem auto;
   padding: 0.1rem 1.5rem;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 
 /* Logo */
 .logo {
   display: flex;
   align-items: center;
   
+  
 }
 
 .logo img {
-  height: 100px;
+  height: 50px;
 }
 
 .logo :hover {
@@ -49,10 +48,14 @@
 }
 
 .links a {
+  display: flex;
+  align-items: center;
   color: var(--text-main);
   font-size: 1.2rem;
   font-weight:500;
+  text-decoration: none;
   transition: opacity 0.2s ease;
+  gap: 0.5rem;
 }
 
 .links a:hover {
