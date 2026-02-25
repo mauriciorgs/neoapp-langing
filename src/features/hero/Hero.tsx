@@ -25,7 +25,7 @@ export const Hero: React.FC = () => {
         <div className={styles.visual}>
           <div className={styles.mockup}></div>
           <img
-            src="/src/assets/images/neoapp-mockup.webp"
+            src="../assets/images/neoapp-mockup.webp"
             alt="Mockup sistema pos NeoPOS"
             className={styles['imagen-mockup']}
           />
