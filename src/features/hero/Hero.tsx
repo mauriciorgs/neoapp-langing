@@ -1,4 +1,5 @@
 import styles from './Hero.module.css';
+import neoMockup from '../../assets/images/neoapp-mockup.webp';
 
 export const Hero: React.FC = () => {
   return (
@@ -25,7 +26,7 @@ export const Hero: React.FC = () => {
         <div className={styles.visual}>
           <div className={styles.mockup}></div>
           <img
-            src="src/assets/images/neoapp-mockup.webp"
+            src={neoMockup}
             alt="Mockup sistema pos NeoPOS"
             className={styles['imagen-mockup']}
           />
