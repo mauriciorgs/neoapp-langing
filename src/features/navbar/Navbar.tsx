@@ -1,6 +1,12 @@
 import styles from './Navbar.module.css';
 import logo from '../../assets/images/logo-neoapp.webp';
-import { Hammer, Users, Briefcase, Handshake,  type LucideIcon } from 'lucide-react';
+import {
+  Hammer,
+  Users,
+  Briefcase,
+  Handshake,
+  type LucideIcon,
+} from 'lucide-react';
 
 type NavItem = {
   name: string;
@@ -8,7 +14,7 @@ type NavItem = {
   icon: LucideIcon;
 };
 
-const navItems: NavItem [] = [
+const navItems: NavItem[] = [
   { name: 'Servicios', path: '#servicios', icon: Hammer },
   { name: 'Nosotros', path: '#about', icon: Users },
   { name: 'Experiencia', path: '#experiencia', icon: Briefcase },
@@ -38,7 +44,9 @@ export const Navbar = () => {
           })}
         </ul>
 
-        <a href="#" className={`btn-primary ${styles.cta}`}>
+        <a
+          href="https://wa.me/573158932278?text=Hola,%20vengo%20de%20la%20web.%20Me%20gustaría%20solicitar%20una%20asesoría%20para%20un%20proyecto%20de%20desarrollo%20de%20software."
+          className={`btn-primary ${styles.cta}`}>
           Comprar POS
         </a>
       </nav>

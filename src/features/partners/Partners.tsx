@@ -1,8 +1,8 @@
-import styles from "./Partners.module.css";
+import styles from './Partners.module.css';
 
 export const Partners = () => {
   return (
-    <section id='aliados' className={styles.partners}>
+    <section id="aliados" className={styles.section}>
       <div className={styles.container}>
         {/* Header */}
         <header className={styles.header}>

@@ -15,11 +15,11 @@ export const Hero: React.FC = () => {
             Diseñado para crecer contigo.
           </p>
           <div className={styles.actions}>
-            <a href="#" className="btn-primary">
+            <a href="https://wa.me/573158932278?text=Hola,%20vengo%20de%20la%20web.%20Me%20gustaría%20solicitar%20una%20asesoría%20para%20un%20proyecto%20de%20desarrollo%20de%20software." className="btn-primary">
               Comprar POS
             </a>
-            <a href="#servicios" className={styles.secondary}>
-              Ver funcionalidades
+            <a href="https://wa.me/573158932278?text=Hola,%20vengo%20de%20la%20web.%20Me%20gustaría%20solicitar%20una%20asesoría%20para%20un%20proyecto%20de%20desarrollo%20de%20software." className={styles.secondary}>
+              Hablemos de tu proyecto
             </a>
           </div>
         </div>

@@ -2,7 +2,7 @@ import styles from "./Services.module.css";
 
 export const Services = () => {
   return (
-    <section id='servicios' className={styles.services}>
+    <section id='servicios' className={styles.container}>
       <div className={styles.container}>
         {/* Header */}
         <header className={styles.header}>

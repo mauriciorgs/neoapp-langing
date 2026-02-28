@@ -1,3 +1,5 @@
+
+
 .hero {
   padding-top: 6rem;
 }
@@ -64,8 +66,8 @@
 .mockup {
  position: absolute;
   inset: -20px;
-  background-color: rgba(30, 130, 248, 0.30);
-  filter: blur(40px);
+  background-color: rgba(30, 130, 248, 0.2);
+  filter: blur(60px);
   border-radius: 30px;
   z-index: -1;
   
@@ -78,7 +80,7 @@
   z-index: 10;
   border-radius: 1rem;
   
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* 📱 Responsive */

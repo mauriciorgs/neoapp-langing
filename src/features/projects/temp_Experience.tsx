@@ -1,8 +1,8 @@
-import styles from "./Experience.module.css";
+import styles from './Experience.module.css';
 
 export const Experience = () => {
   return (
-    <section id='experiencia' className={styles.experience}>
+    <section id="experiencia" className={styles.section}>
       <div className={styles.container}>
         {/* Header */}
         <header className={styles.header}>

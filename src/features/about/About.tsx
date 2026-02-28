@@ -1,8 +1,8 @@
-import styles from "./About.module.css";
+import styles from './About.module.css';
 
 export const About = () => {
   return (
-    <section id='about' className={styles.about}>
+    <section id="about" className={styles.section}>
       <div className={styles.container}>
         <div className={styles.content}>
           <h2>Sobre nosotros</h2>
