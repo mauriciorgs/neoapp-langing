@@ -23,8 +23,8 @@ const services = [
 
 export const Services = () => {
   return (
-    <section id="servicios" className="py-16 px-6">
-      <div className="max-w-[1200px] mx-auto ">
+    <section id="servicios" className="py-18 px-6">
+      <div className="max-w-[1200px] mx-auto">
         {/* Header */}
         <header className="text-center mb-14">
           <h2 className="mb-4 text-balance">
