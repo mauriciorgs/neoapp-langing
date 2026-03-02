@@ -9,8 +9,7 @@ export const CallToAction = () => {
           ¿Listo para impulsar tu negocio con tecnología?
         </h2>
         <p className="mx-auto mb-10">
-          Ya sea que necesites una solución de software a medida o quieras
-          implementar nuestro sistema POS, estamos listos para ayudarte.
+          Ya sea que necesites una solución de software a medida o quieras implementar nuestro sistema POS, estamos listos para ayudarte.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-6">
           <a href={WA_LINK} className="btn-primary px-6 py-3">
