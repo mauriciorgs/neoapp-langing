@@ -13,9 +13,7 @@ export const FloatinButton = () => {
 
       {/* Contenedor del botón y su animación */}
       <div className='relative'>
-        
-        
-        <div className='absolute inset-0 bg-[#25D366] rounded-full animate-ping opacity-75' />
+        <div className='absolute inset-0 bg-brand-accent rounded-full animate-ping opacity-75' />
 
         {/* Botón Flotante Real */}
         <a
@@ -23,7 +21,7 @@ export const FloatinButton = () => {
           target='_blank'
           rel='noopener noreferrer'
           aria-label='Contactar por WhatsApp'
-          className='relative flex items-center justify-center w-14 h-14 bg-[#25D366] text-white rounded-full shadow-[0_4px_14px_rgba(37,211,102,0.4)] hover:bg-[#20ba56] hover:scale-110 hover:shadow-[0_6px_20px_rgba(37,211,102,0.6)] transition-all duration-300'
+          className='relative flex items-center justify-center w-14 h-14 bg-brand-accent text-white rounded-full shadow-[0_4px_14px_rgba(14,165,233,0.4)] hover:bg-brand-accent hover:scale-110 hover:shadow-[0_6px_20px_rgba(14,165,233,0.6)] transition-all duration-300'
         >
           {/* Ícono oficial de WhatsApp en SVG */}
           <svg
