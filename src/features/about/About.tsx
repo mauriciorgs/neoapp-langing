@@ -16,8 +16,8 @@ const values = [
 
 export const About = () => {
   return (
-    <section id="about" className="py-16 px-4 sm:px-6">
-      <div className="max-w-[1200px] mx-auto grid py-20 grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-start">
+    <section id="about" className="py-18 px-4 sm:px-6">
+      <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-start">
         {/* Content */}
 
         <div className="lg:col-span-5 lg:sticky lg:top-24">

@@ -40,9 +40,9 @@ const socialLinks = [
 export const Footer = () => {
 
   return (
-    <footer className="py-20">
+    <footer className="py-12">
       {/* Main grid */}
-      <div className="max-w-[1200px] mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-16">
+      <div className="max-w-[1200px] mx-auto px-6 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-16">
         {/* Brand */}
         <div>
           <a href="#hero" className="block">
@@ -74,7 +74,7 @@ export const Footer = () => {
         </div>
 
         {/* Navigation */}
-        <nav>
+        <nav className='pl-12'>
           <h3 className="text-text-main text-base font-semibold mb-4">
             Navegación
           </h3>
@@ -122,7 +122,7 @@ export const Footer = () => {
 
         {/* Legal */}
         <div>
-          <ul className="list-none p-0 space-y-3 text-sm">
+          <ul className="list-none p-0 space-y-3 text-sm pl-12">
             <li>
               <a
                 href="#"
@@ -142,7 +142,7 @@ export const Footer = () => {
       </div>
 
       {/* Bottom bar */}
-      <div className="flex flex-col items-center justify-center text-center gap-1 px-4 text-sm">
+      <div className="flex flex-col items-center justify-center text-center gap-1 px-4 text-sm pt-8">
         <p className="m-0">
           © {new Date().getFullYear()} NeoApp Ingenieria. Todos los derechos
           reservados.

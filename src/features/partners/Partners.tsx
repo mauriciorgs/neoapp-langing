@@ -50,7 +50,7 @@ export const Partners = () => {
   const duplicatedPartners = [...partnersData, ...partnersData];
 
   return (
-    <section id="aliados" className="py-10 overflow-hidden">
+    <section id="aliados" className="pt-18 pb-4 overflow-hidden">
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 mb-12">
         <header className="text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance text-text-main">
@@ -120,7 +120,7 @@ export const Partners = () => {
       </div>
 
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 mt-14 text-center">
-        <p className="text-text-main mb-3 font-medium">
+        <p className="text-xl text-text-main mb-3 font-semibold">
           ¿Quieres ser nuestro próximo aliado o cliente?
         </p>
       </div>
