@@ -21,8 +21,8 @@ const experiences = [
 
 export const Experience = () => {
   return (
-    <section id="experiencia" className="py-16 px-6">
-      <div className="max-w-[1200px] mx-auto py-16 px-6">
+    <section id="experiencia" className="py-18 px-6">
+      <div className="max-w-[1200px] mx-auto">
         {/* Header */}
         <header className="text-center mb-14">
           <h2 className="mb-4 text-balance">

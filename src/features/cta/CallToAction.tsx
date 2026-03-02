@@ -3,7 +3,7 @@ const WA_LINK =
 
 export const CallToAction = () => {
   return (
-    <section className="px-6 pb-16">
+    <section className="px-6 pb-2">
       <div className="max-w-[1200px] mx-auto text-center pb-16 px-6">
         <h2 className="mb-4 text-balance">
           ¿Listo para impulsar tu negocio con tecnología?
