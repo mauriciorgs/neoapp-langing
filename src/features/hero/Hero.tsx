@@ -25,11 +25,13 @@ const stats = [
 
 export const Hero: React.FC = () => {
   return (
-    <section className="pt-16" id="hero">
+    <section
+      className="'relative min-h-dvh flex flex-col justify-center pt-20 pb-10"
+      id="hero">
       {/* Contenedor principal sin el grid, para permitir elementos de ancho completo */}
-      <div className="max-w-[1200px] mx-auto px-6 md:py-16">
+      <div className="max-w-[1200px] mx-auto px-6 w-full ">
         {/* Bloque Superior: Textos e Imagen */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-12 md:mb-16">
           {/* Text content */}
           <div className="text-center md:text-left">
             <h1 className="text-[clamp(2.4rem,5vw,3.2rem)] font-semibold leading-tight mb-5 text-balance">
@@ -68,7 +70,7 @@ export const Hero: React.FC = () => {
         </div>
 
         {/* Bloque Inferior: Tarjetas de Estadísticas (Stats) */}
-        <div className="flex flex-wrap justify-center gap-4 pt-2">
+        <div className="flex flex-wrap justify-center gap-4 md:pt-4">
           {stats.map((stat) => (
             <div
               key={stat.id}
